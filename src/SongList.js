@@ -21,8 +21,13 @@ const SongList = (props) => {
   return (
     <div>
       <Helmet>
-        <title>laulum.me</title>
+        <title>TKO-älyn Zoomsitsit 11.12.2020 - laulum.me</title>
       </Helmet>
+      <div className="header">
+        <h1>
+        TKO-älyn Zoomsitsit 11.12.2020 - laulum.me
+        </h1>
+      </div>
       <div className="searchbar">
         <div className="input-group">
           <input

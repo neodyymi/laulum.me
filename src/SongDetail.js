@@ -22,7 +22,7 @@ const SongDetail = (props) => {
   return (
     <div className="song-details">
       <Helmet>
-        <title>laulum.me | {title}</title>
+        <title>TKO-älyn Zoomsitsit 11.12.2020 - laulum.me | {title}</title>
       </Helmet>
       <div className="centered">
         <div className="lyrics">
