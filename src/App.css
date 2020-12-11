@@ -13,8 +13,8 @@ body {
 }
 
 .header {
-  background-color: #eee;
-  color: #c1c1c1;
+  background-color:  #393A3C;
+  color: #F07249;
   height: 70px;
 }
 
@@ -24,7 +24,7 @@ body {
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-align: left;
+  text-align: center;
   font-size: 24px;
 }
 
@@ -59,8 +59,8 @@ body {
   margin: 10px 10px;
   border-radius: 3px;
   font-family: "Roboto", sans-serif;
-  background: #f6f6f6;
-  color: #999;
+  background: #F07249;
+  color: #393A3C;
   transition: all 0.1s ease;
 }
 
@@ -68,7 +68,7 @@ a {
   text-decoration: none !important;
 }
 .song-card:hover {
-  background: #eee;
+  background: #D22C2C;
   transition: all 0.1s ease;
   text-decoration: none;
 }
