@@ -18,12 +18,19 @@ const SongList = (props) => {
     );
   }, [searchTerm, songs]);
 
+  const focusSearch = () => {
+    const element = document.getElementById("search")
+    if(element) {
+      element.focus()
+    }
+  }
+
   return (
     <div>
       <Helmet>
         <title>TKO-älyn Zoomsitsit 11.12.2020 - laulum.me</title>
       </Helmet>
-      <div className="header">
+      <div className="header" onClick={(event) => focusSearch()} >
         <h1>
         TKO-älyn Zoomsitsit 11.12.2020 - laulum.me
         </h1>
@@ -31,9 +38,11 @@ const SongList = (props) => {
       <div className="searchbar">
         <div className="input-group">
           <input
+            id="search"
             className="form-control"
             placeholder="Search songs..."
             value={searchTerm}
+            autoFocus="true"
             onChange={(event) => setSearchTerm(event.target.value)}
           />
         </div>
